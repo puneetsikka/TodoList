@@ -1,0 +1,131 @@
+.todo-list-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+  }
+  
+  .todo-list-page__title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .todo-list-page__container {
+    width: 400px;
+    max-width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+  }
+  
+  .todo-list-page__input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .todo-list-page__input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+  }
+  
+  .todo-list-page__add-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-list-page__list {
+    list-style: none;
+    padding: 0;
+    margin-top: 16px;
+  }
+  
+  .todo-list-page__list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .todo-list-page__list-item-title {
+    display: flex;
+    align-items: center;
+    word-break: break-word;
+    flex-wrap: wrap;
+  }
+  
+  .todo-list-page__list-item-title span {
+    flex: 1;
+    word-wrap: break-word;
+  }
+  
+  .todo-list-page__delete-button {
+    padding: 4px;
+    border-radius: 50%;
+    background-color: #dc3545;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .todo-list-page__sublist {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+  
+  .todo-list-page__sublist-item {
+    margin-bottom: 4px;
+  }
+  
+  .todo-list-page__subtodo-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+  }
+  
+  .todo-list-page__subtodo-input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+  }
+  
+  .todo-list-page__add-subtodo-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-list-page__logout-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  
