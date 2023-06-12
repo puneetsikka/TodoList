@@ -14,7 +14,7 @@ interface User {
 interface LoginResponse {
   token: string;
 }
-const serverUrl = "https://5000-puneetsikka-todolist-b686ge0wyv7.ws-us99.gitpod.io/api/login";
+const serverUrl = "https://5000-puneetsikka-todolist-b686ge0wyv7.ws-us99.gitpod.io/api/login"; // Sever url can changed for the appropriate use
 const App: React.FC = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState<User | null>(null);
