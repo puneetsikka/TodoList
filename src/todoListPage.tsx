@@ -27,7 +27,7 @@ interface TodoListPageProps {
 
 const TodoListPage: React.FC<TodoListPageProps> = ({ handleLogout }) => {
   const users = useContext(MyContext);
-  console.log(users) // Context API 
+  console.log(users) // Context API Console.log is intentianal for the content api
   const [todos, setTodos] = useState<Todo[]>([]);
   const [newTodo, setNewTodo] = useState<string>('');
   const [newSubTodo, setNewSubTodo] = useState<{ [key: number]: string }>({});
