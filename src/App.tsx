@@ -14,7 +14,7 @@ interface User {
 interface LoginResponse {
   token: string;
 }
-const serverUrl = 'http://localhost:5000';
+const serverUrl = "https://5000-puneetsikka-todolist-b686ge0wyv7.ws-us99.gitpod.io/api/login";
 const App: React.FC = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState<User | null>(null);
@@ -23,7 +23,7 @@ const App: React.FC = () => {
 
   const handleLogin = async  () => {
     try {
-      const response = await axios.post<LoginResponse>(`${serverUrl}/api/login`, { username, password });
+      const response = await axios.post<LoginResponse>(`${serverUrl}`, { username, password });
       const { token } = response.data;
       localStorage.setItem('token', token);
       const decodedToken = jwtDecode<{ sub: string }>(token);
