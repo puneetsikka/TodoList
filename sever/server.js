@@ -1,4 +1,4 @@
-import users from '../src/users_profile'
+const users = require('../src/users_profile');
 const express = require('express');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');

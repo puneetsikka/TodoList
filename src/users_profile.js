@@ -10,4 +10,4 @@ const users = [
       password: '$2b$10$AuR/sZiTKD4k56TxVJiJruRyYKhjDMijK6/K7G43G.mHdjf.SRosq', // Hashed password: "password122"
     },
   ];
-export default users;
+  module.exports = users;
